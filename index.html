@@ -9,7 +9,7 @@
   </head>
 
   <!-- Body -->
-  <body class="font-[inter] mx-auto">
+  <body class="font-inter mx-auto">
     <!-- Header -->
     <header>
       <section
@@ -28,7 +28,7 @@
               <li><a href="">Host</a></li>
             </ul>
           </div>
-          <div class="nav-btn">
+          <div class="nav-btn animate-pulse">
             <button
               class="flex py-3 pl-4 pr-4 mr-1 bg-linear-[25deg,#F7E93F_20%,#FB09B4_50%,#9100F8_90%] rounded-3xl items-center"
             >
@@ -50,7 +50,7 @@
       >
         <div class="hero-image relative">
           <img
-            class="absolute right-[39%] w-[120px] bottom-45 max-w-[1200px] mx-auto drop-shadow-xl drop-shadow-green-500"
+            class="absolute right-[39%] w-[120px] bottom-45 max-w-[1200px] mx-auto drop-shadow-xl drop-shadow-green-500 animate-pulse"
             src="./assets/new.png"
             alt=""
           />
@@ -60,7 +60,7 @@
             alt=""
           />
           <img
-            class="mt-[-300px] mb-32 max-w-[1200px] mx-auto"
+            class="mt-[-300px] mb-32 max-w-[1200px] mx-auto hover:animate-bounce"
             src="./assets/microphone.png"
             alt=""
           />
@@ -71,11 +71,14 @@
             Your daily dose of tech insights, productivity hacks, and personal
             growth
           </p>
-          <div class="hero-btn pb-[100px]">
+          <div class="hero-btn flex gap-2 justify-center pb-[100px]">
             <button
               class="py-3 px-5 bg-linear-[25deg,#F7E93F_20%,#FB09B4_50%,#9100F8_90%] rounded-3xl items-center"
             >
-              <a href="">Listen on Spotify</a>
+              <a class="flex gap-2 items-center animate-bounce" href="">
+                <img class="w-6" src="./assets/spotify.png" alt="" />Listen on
+                Spotify</a
+              >
             </button>
             <button
               class="py-3 px-5 bg-transparent border border-green-400 rounded-3xl items-center text-green-400"
