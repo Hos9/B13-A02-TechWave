@@ -44,32 +44,40 @@
     <!-- Hero -->
     <section class="hero max-w-400 mx-auto text-white">
       <div
-        class="hero-container bg-[url(./assets/hero-bg.png)] max-w-400 h-auto mx-auto text-white"
+        class="hero-container bg-[url(./assets/hero-bg.png)] max-w-400 h-auto mx-auto text-white max-[576px]:pb-40 max-[576px]:h-75 max-[576px]:px-4 max-[576px]:bg-size-[auto_100%] min-[992px]:h-auto min-[992px]:px-12 min-[992px]:bg-center"
       >
         <div class="hero-image relative">
           <img
-            class="absolute right-[39%] w-32 bottom-45 max-w-300 mx-auto drop-shadow-xl drop-shadow-green-500 animate-pulse"
+            class="absolute right-[39%] w-32 bottom-45 max-w-300 mx-auto drop-shadow-xl drop-shadow-green-500 animate-pulse max-[576px]:right-[30%] max-[576px]:bottom-6 max-[576px]:w-24 min-[992px]:right-[40%] min-[992px]:bottom-[60px] min-[992px]:w-40"
             src="./assets/new.png"
             alt=""
           />
           <img
-            class="pt-25 mb-10 max-w-300 mx-auto"
+            class="pt-25 mb-10 max-w-300 mx-auto max-[576px]:pt-12 max-[576px]:mb-6 max-[576px]:max-w-[180px] min-[992px]:pt-25 min-[992px]:mb-10 min-[992px]:max-w-300"
             src="./assets/hero-circle.png"
             alt=""
           />
           <img
-            class="-mt-75 mb-32 max-w-300 mx-auto hover:animate-bounce"
+            class="-mt-75 mb-32 max-w-300 mx-auto hover:animate-bounce max-[576px]:mb-32 max-[576px]:mt-[-170px] max-[576px]:max-w-[70px]"
             src="./assets/microphone.png"
             alt=""
           />
         </div>
-        <div class="hero-details text-center">
-          <h2 class="text-6xl font-extrabold mb-2">TechWave</h2>
-          <p class="opacity-60 mb-6">
+        <div
+          class="hero-details text-center max-[576px]:bg-[#191240] max-[576px]:m-full"
+        >
+          <h2
+            class="text-6xl font-extrabold mb-2 max-[576px]:text-10 max-[576px]:font-extrabold"
+          >
+            TechWave
+          </h2>
+          <p class="opacity-60 mb-6 max-[576px]:mx-5">
             Your daily dose of tech insights, productivity hacks, and personal
             growth
           </p>
-          <div class="hero-btn flex gap-2 justify-center pb-25">
+          <div
+            class="hero-btn flex gap-2 justify-center pb-30 min-[992px]:pb-30 max-[576px]:pb-10"
+          >
             <button
               class="py-3 px-5 bg-linear-[25deg,#F7E93F_20%,#FB09B4_50%,#9100F8_90%] rounded-3xl items-center"
             >
@@ -92,10 +100,16 @@
     </section>
 
     <!-- About -->
-    <section class="about max-w-400 bg-[#1a0b2e] mx-auto text-white pb-32">
-      <div class="about-details text-center max-w-300 mx-auto pt-12">
-        <h2 class="text-5xl font-bold">About the Podcast</h2>
-        <p class="opacity-60 mt-4 mb-20">
+    <section
+      class="about max-w-400 bg-[#1a0b2e] mx-auto text-white max-[576px]:mt-50 pb-32 max-[576px]:pt-10 max-[576px]:pb-10"
+    >
+      <div class="about-details text-center max-w-300 mx-auto max-[576px]:mx-5">
+        <h2
+          class="text-5xl font-bold max-[576px]:text-[2rem] max-[576px]:text-center"
+        >
+          About the Podcast
+        </h2>
+        <p class="opacity-60 mt-4 mb-20 max-[576px]:mt-2 max-[576px]:mb-10">
           TechWave is your go-to podcast for staying ahead in the fast-paced
           world of technology. <br />We break down complex topics into
           digestible insights, explore productivity strategies that actually
@@ -107,9 +121,11 @@
         </p>
       </div>
       <div
-        class="line border-t-2 border-[#ffffff] max-w-300 mx-auto mb-20 opacity-10"
+        class="line border-t-2 border-[#ffffff] w-300 mx-auto mb-20 opacity-10 max-[576px]:mb-10"
       ></div>
-      <div class="status-contain flex max-w-300 mx-auto">
+      <div
+        class="status-contain flex max-w-300 mx-auto max-[576px]:grid max-[576px]:grid-cols-2 max-[576px]:gap-10"
+      >
         <!-- Status-1 -->
         <div class="status max-w-300 mx-auto text-center">
           <h1 class="text-5xl font-black text-[#00FF88] mb-4">150K+</h1>
@@ -137,15 +153,21 @@
     </section>
 
     <!-- Why Choose TechWave -->
-    <section class="reasons max-w-400 bg-[#230e3d] mx-auto text-white pb-32">
+    <section
+      class="reasons max-w-400 bg-[#230e3d] mx-auto text-white pt-32 pb-32 max-[576px]:pt-10 max-[576px]:pb-10"
+    >
       <div class="reason-container max-w-300 mx-auto">
-        <div class="reason-title pt-32 text-5xl font-bold text-center mb-10">
+        <div
+          class="reason-title text-5xl font-bold text-center mb-10 max-[576px]:mb-10 max-[576px]:text-[2rem] max-[576px]:text-center"
+        >
           <h3>Why Choose TechWave</h3>
         </div>
-        <div class="reason-cards grid grid-cols-3 gap-8">
+        <div
+          class="reason-cards grid grid-cols-3 gap-8 max-[576px]:grid-cols-1 max-[576px]:mx-5 max-[576px]:gap-4"
+        >
           <!-- Grid-1 -->
           <div
-            class="reason-sole-card bg-[#2a0f4d] rounded-3xl px-10 row-span-2 h-full content-center"
+            class="reason-sole-card bg-[#2a0f4d] rounded-3xl px-10 row-span-2 h-full content-center max-[576px]:col-span-2"
           >
             <img class="pt-10 mb-4" src="./assets/headphone.png" alt="" />
             <h4 class="text-2xl font-bold mb-4">Premium Audio Quality</h4>
@@ -195,7 +217,7 @@
 
           <!-- Grid-5 -->
           <div
-            class="reason-sole-card bg-[#2a0f4d] rounded-3xl px-10 h-full content-center"
+            class="reason-sole-card bg-[#2a0f4d] rounded-3xl px-10 h-full content-center max-[576px]:col-span-2"
           >
             <img class="pt-10 mb-4" src="./assets/resource.png" alt="" />
             <h4 class="text-2xl font-bold mb-4">Rich Resources</h4>
@@ -210,16 +232,20 @@
 
     <!-- Featured Episode -->
     <section
-      class="featured max-w-400 bg-[#1A0B2E] mx-auto text-white pt-32 pb-32"
+      class="featured max-w-400 bg-[#1A0B2E] mx-auto text-white pt-32 pb-32 max-[576px]:w-full max-[576px]:pt-10 max-[576px]:pb-15"
     >
       <div class="featured-container mx-auto">
-        <div class="featured-title text-5xl mb-10 font-bold text-center">
+        <div
+          class="featured-title text-5xl mb-10 font-bold text-center max-[576px]:text-[2rem] max-[576px]:text-center max-[576px]:mb-6"
+        >
           <h2>Featured Episodes</h2>
         </div>
-        <div class="podcast-container max-w-300 mx-auto flex gap-8">
+        <div
+          class="podcast-container w-300 mx-auto flex gap-8 max-[576px]:flex-col max-[576px]:mx-auto max-[576px]:w-fit max-[576px]:gap-2"
+        >
           <!-- Podcast-1 -->
-          <div class="podcast w-95 h-auto">
-            <div class="iframe">
+          <div class="podcast w-95 h-auto max-[576px]:mx-auto">
+            <div class="iframe max-[576px]:w-auto">
               <iframe
                 class="rounded-t-3xl"
                 width="380"
@@ -256,7 +282,7 @@
             </div>
           </div>
           <!-- Podcast-2 -->
-          <div class="podcast w-95 h-auto">
+          <div class="podcast w-95 h-auto max-[576px]:mx-auto">
             <div class="iframe">
               <iframe
                 class="rounded-t-3xl"
@@ -295,7 +321,7 @@
             </div>
           </div>
           <!-- Podcast-3 -->
-          <div class="podcast w-95 h-auto">
+          <div class="podcast w-95 h-auto max-[576px]:mx-auto">
             <div class="iframe">
               <iframe
                 class="rounded-t-3xl"
@@ -338,31 +364,41 @@
     </section>
 
     <!-- Meet The Host -->
-    <section class="host max-w-400 bg-[#1A0B2E] mx-auto text-white">
+    <section
+      class="host max-w-400 bg-[#1A0B2E] mx-auto text-white max-[576px]:mx-auto"
+    >
       <div class="host-container content-center text-center">
-        <div class="host-title mb-10 text-5xl font-bold">
+        <div class="host-title mb-10 text-5xl font-bold max-[576px]:text-3xl">
           <h1>Meet the Host</h1>
         </div>
         <div
-          class="bg-[#250e44] max-w-300 mx-auto rounded-4xl mb-32 flex gap-6 items-center"
+          class="bg-[#250e44] max-w-300 mx-auto rounded-4xl mb-32 flex gap-6 items-center max-[576px]:flex-col max-[576px]:mx-5"
         >
           <div class="host-image">
             <img
-              class="size-52 mt-10 ml-10 mb-10"
+              class="size-52 mt-10 ml-10 mb-10 max-[576px]:mb-4"
               src="./assets/host.png"
               alt=""
             />
           </div>
           <div class="host-details max-w-4xl text-left">
-            <h1 class="host-name mt-12 mb-4 text-3xl font-bold">Alex Kumar</h1>
-            <p class="host-description mb-4 opacity-60">
+            <h1
+              class="host-name mt-12 mb-4 text-3xl font-bold max-[576px]:mt-0 max-[576px]:text-center"
+            >
+              Alex Kumar
+            </h1>
+            <p
+              class="host-description mb-4 opacity-60 max-[576px]:mx-6 max-[576px]:text-center"
+            >
               Tech entrepreneur, productivity expert, and lifelong learner. Alex
               has been in the tech industry for over 10 years, working with
               startups and Fortune 500 companies. Through TechWave, Alex shares
               insights from industry leaders and practical advice for anyone
               looking to grow in tech.
             </p>
-            <div class="icons flex gap-2 items-center">
+            <div
+              class="icons flex gap-2 items-center max-[576px]:mb-6 max-[576px]:justify-center max-[576px]:flex-wrap"
+            >
               <div class="border border-[#533C72] rounded-3xl">
                 <img class="w-4 h-4 m-2.5" src="./assets/linkedin.png" alt="" />
               </div>
@@ -386,19 +422,19 @@
     </section>
 
     <!--Footer-->
-    <footer class="sm:w-full sm:h-full">
+    <footer class="">
       <div
-        class="footer-container sm:w-110 sm:h-62 bg-[url(./assets/footer-bg.png)] w-400 h-103 mx-auto content-center"
+        class="footer-container bg-[url(./assets/footer-bg.png)] w-400 h-103 mx-auto content-center max-[576px]:w-auto max-[576px]:bg-cover"
       >
         <div class="footer-logo">
           <img
-            class="mx-auto mb-8 max-w-102.5 max-h-"
+            class="mx-auto mb-8 max-w-102.5 max-[576px]:w-54.75"
             src="./assets/footer-logo.png"
             alt=""
           />
         </div>
         <div
-          class="social-container flex gap-10 justify-center text-white mb-8"
+          class="social-container flex gap-10 justify-center text-white mb-8 max-[576px]:flex-wrap max-[576px]:w-63.75 max-[576px]:mx-auto max-[576px]:gap-4"
         >
           <div class="footer-social flex gap-2">
             <img class="size-6" src="./assets/spotify.png" alt="" />
